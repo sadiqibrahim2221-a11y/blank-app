@@ -1,19 +1,28 @@
-# 🎈 Blank app template
+# 🌍 Digital Chemistry & Agriculture Laboratory
 
-A simple Streamlit app template for you to modify!
+A Streamlit MVP for simulating and optimizing five applied chemistry/agriculture innovation modules:
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+1. Slow-release fertilizer coating systems (cassava starch)
+2. Geopolymer cement systems (kaolin + agricultural ash)
+3. AI-powered soil nutrient analysis and fertilizer recommendation
+4. Phosphorus recovery as struvite
+5. Green hydrogen and green ammonia process modeling (solar-powered)
 
-### How to run it on your own machine
+## Quick start
 
-1. Install the requirements
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+## MVP capabilities
 
-2. Run the app
+- Interactive per-module simulators with simplified scientifically grounded models
+- Input controls for core process/agronomic variables
+- Visual outputs (curves, bars, scatter/Pareto-style chart)
+- Cross-module scenario ranking with objective weighting
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## Notes
+
+- This version is intentionally simplified for early-stage experimentation.
+- Predictions are decision-support estimates and should be calibrated with local lab/field data.
